@@ -56,8 +56,6 @@ plt_img_base64(image_b64)
 llm = ChatOllama(model="gemma3:4b", temperature=0)
 
 def prompt_func(data):
-    # print(data["system"])
-    # system = data["system"]
     text = data["text"]
     image = data["image"]
 
